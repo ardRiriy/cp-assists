@@ -1,0 +1,12 @@
+[package]
+name = "bundler"
+edition = "2024"
+version.workspace = true
+authors.workspace = true
+
+[dependencies]
+anyhow = "1.0.98"
+prettyplease = "0.2.35"
+proc-macro2 = "1.0.95"
+quote = "1.0.40"
+syn = { version = "2", features = ["extra-traits", "full", "visit"] }
