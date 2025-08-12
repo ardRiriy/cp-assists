@@ -87,7 +87,7 @@ fn submit(lang: &String, id: &String, url: &String, is_check: bool) -> Result<()
         let lib_root = home_dir().expect("Could not determine home directory")
             .join("repos")
             .join("adry_library")
-            .join("adry_library")
+            .join("library")
             .join("src");
 
         let target   = format!("src/bin/{id}.rs");
